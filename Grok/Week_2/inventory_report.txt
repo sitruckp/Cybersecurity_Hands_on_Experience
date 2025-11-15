@@ -1,0 +1,5 @@
+/home/kevin/assets:
+total 8
+-rw-r--r-- 1 kevin kevin 36 Nov 14 09:10 confidential.txt
+-rw-r--r-- 1 kevin kevin  0 Nov 14 09:11 inventory_report.txt
+-rw-r--r-- 1 kevin kevin 27 Nov 14 09:10 public.txt
