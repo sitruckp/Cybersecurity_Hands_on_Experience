@@ -1,12 +1,19 @@
 # Cybersecurity Hands-On Lab Portfolio
 
 ## Overview
-This repository serves as my personal archive of hands-on cybersecurity projects, artifacts, and learning plans. As an aspiring cybersecurity professional with backgrounds in educational technology and bio-defense, I hold certifications like ISC2 CC and Google Cybersecurity Professional, with ongoing progress in IBM Cybersecurity Analyst and CompTIA Security+ prep. I'm documenting practical labs in a Kali + Debian environment, emphasizing ethical, isolated setups for skills like server hardening, vulnerability scanning, network analysis, incident triage, and now secure website hosting. All activities remain lab-confined to prioritize safety, compliance, and risk mitigation—aligning with frameworks like NIST RMF and CIS Benchmarks.
+This repository serves as my personal archive of hands-on cybersecurity projects, artifacts, and learning plans. As an aspiring cybersecurity professional with backgrounds in educational technology and bio-defense, I hold certifications like ISC2 CC and Google Cybersecurity Professional, with ongoing progress in IBM Cybersecurity Analyst and CompTIA Security+ prep. I'm documenting practical labs in a Kali + Debian environment, emphasizing ethical, isolated setups for skills like server hardening, vulnerability scanning, network analysis, incident triage, and now secure website hosting. My labs focus on ethical, isolated environments using Kali Linux, Debian/Ubuntu servers, and tools like ELK ElasticStack, Wireshark, Lynis, Metasploit, and Nikto, now incorporating secure web hosting and basic programming (Python, HTML) for security applications. All activities remain lab-confined to prioritize safety, compliance, and risk mitigation—aligning with frameworks like NIST RMF and CIS Benchmarks.
+
+Recent achievements:
+- Improved Lynis hardening score to 82 on Debian server via sysctl tweaks and service audits.
+- Deployed ELK ElasticStack on Ubuntu laptop with Elastic Agents on Ubuntu labserver. 
+- Completed a Python mini-course tailored for cybersecurity, with scripts for log parsing and web request analysis.
+- Explored HTML for web vulnerability awareness, aligning with OWASP Top 10 mitigations.
+- Deployed and secured a test website on Debian with Nginx, SSL/TLS (Certbot), and Nikto/OWASP ZAP scans.
 
 Key goals:
 - Build portfolio evidence for interviews (e.g., logs, reports, configurations, and web hosting security artifacts).
-- Track progress with metrics like Lynis scores, risk mitigations, and web vulnerability assessments.
-- Merge insights from multiple LLM-generated plans for a customized 10-week SOC analyst journey, now incorporating secure web deployment.
+- Track progress with metrics like Lynis scores, risk mitigations, mitigated OWASP risks, incident response times and web vulnerability assessments.
+- Merge insights from multiple LLM-generated plans for a customized 10-week SOC analyst journey, now incorporating secure web deployment and programming.
 
 ## Repository Structure
 - **/plans/**: LLM-generated 10-week learning plans and analyses.
