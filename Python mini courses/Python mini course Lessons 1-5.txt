@@ -1,0 +1,118 @@
+     This mini-course introduces Python programming with a focus on cybersecurity applications, such as scripting for ethical hacking labs, log analysis, and automation. Designed for beginners transitioning into cybersecurity, it aligns with tools like Kali Linux, TryHackMe, and home lab setups (e.g., Ubuntu/Debian servers). I created this as part of my journey from educational technology to cybersecurity, building hands-on skills alongside certifications like ISC2 CC and Google Cybersecurity Professional.
+
+     ## Course Overview
+     - **Target Audience**: Aspiring cybersecurity professionals with basic Linux skills and limited coding experience.
+     - **Goal**: Learn Python basics to automate tasks, parse logs, and enhance home labs.
+     - **Lessons**: 5 lessons covering variables, conditionals, loops, functions, and file handling.
+     - **Tools**: Python 3 (pre-installed on Kali Linux or installable via `sudo apt install python3`).
+     - **Applications**: Scripting for TryHackMe rooms, log parsing, and automation in Kali/Ubuntu/Debian environments.
+
+     ## Lessons
+
+     ### Lesson 1: Getting Started with Python
+     **Concepts**: Running Python, print statements, variables, comments.
+     **Example**:
+     ```python
+     # Print a security alert
+     print("Welcome to Python, cyber hero!")
+     name = "YourName"
+     print(f"Hello, {name}! Scanning 192.168.1.100...")
+     ```
+     **Cybersecurity Application**: Create mock security alerts for monitoring scripts.
+     **Run It**:
+     ```bash
+     python3 hello.py
+     ```
+
+     ### Lesson 2: Variables and Data Types
+     **Concepts**: Strings, integers, floats, booleans, basic operations.
+     **Example**:
+     ```python
+     ip_address = "192.168.1.100"  # String
+     port = 8080  # Integer
+     print(f"Scanning IP: {ip_address} on port {port}")
+     new_port = port + 1
+     print(f"Next port: {new_port}")
+     ```
+     **Cybersecurity Application**: Store and manipulate IP addresses or port numbers for scanning scripts.
+     **Run It**:
+     ```bash
+     python3 variables.py
+     ```
+
+     ### Lesson 3: Conditionals (If-Else)
+     **Concepts**: `if`, `elif`, `else`, comparison/logical operators.
+     **Example**:
+     ```python
+     login_attempts = 4
+     max_attempts = 3
+     if login_attempts > max_attempts:
+         print("Account locked!")
+     else:
+         print("Login recorded.")
+     ```
+     **Cybersecurity Application**: Simulate access control or brute-force detection.
+     **Run It**:
+     ```bash
+     python3 conditionals.py
+     ```
+
+     ### Lesson 4: Loops
+     **Concepts**: `for` loops, `while` loops, lists.
+     **Example**:
+     ```python
+     ip_list = ["192.168.1.1", "10.0.0.1"]
+     for ip in ip_list:
+         print(f"Scanning {ip}...")
+     ```
+     **Cybersecurity Application**: Automate scanning multiple IPs or ports in a lab.
+     **Run It**:
+     ```bash
+     python3 loops.py
+     ```
+
+     ### Lesson 5: Functions and Basic File Handling
+     **Concepts**: Defining functions, reading/writing files.
+     **Example**:
+     ```python
+     def check_port(port):
+         if port == 22:
+             return "SSH detected!"
+         return "Unknown port."
+     print(check_port(22))
+     with open("log.txt", "w") as file:
+         file.write("Log: SSH access\n")
+     ```
+     **Cybersecurity Application**: Log security events or parse logs for analysis.
+     **Run It**:
+     ```bash
+     python3 functions.py
+     ```
+
+     ## How to Use
+     1. **Set Up Environment**:
+        - Ensure Python 3 is installed:
+          ```bash
+          python3 --version
+          sudo apt update && sudo apt install python3
+          ```
+        - Clone this repo:
+          ```bash
+          git clone https://github.com/YourUsername/python-cybersecurity-mini-course.git
+          cd python-cybersecurity-mini-course
+          ```
+     2. **Run Examples**:
+        - Save each lesson’s code in a `.py` file (e.g., `hello.py`).
+        - Run with `python3 filename.py`.
+     3. **Experiment**:
+        - Modify examples to log different data (e.g., IPs, ports).
+        - Test in a Kali Linux VM or your home lab.
+
+     ## Portfolio Note
+     This mini-course is part of my cybersecurity skill-building, complementing my hands-on experience with Kali Linux, Wireshark, Metasploit, and TryHackMe labs. It demonstrates my ability to write Python scripts for automation and log analysis, key skills for roles like SOC Analyst or Penetration Tester. Check out my other projects for more lab-based work!
+
+     ## Resources
+     - [Python Official Docs](https://python.org/doc)
+     - [TryHackMe Python Rooms](https://tryhackme.com)
+     - [Cybernews](https://cybernews.com) for cybersecurity scripting ideas
+
