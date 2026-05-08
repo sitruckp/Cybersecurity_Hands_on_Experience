@@ -28,16 +28,3 @@ This repository contains documentation I developed following a ransomware incide
 ## License
 These templates are shared for educational and professional portfolio purposes. Feel free to adapt for your own environment (attribution appreciated).
 
----
-
-**You now have all 10 fully complete Markdown files.**
-
-**Next Steps Recommendation:**
-1. Create a new GitHub repository
-2. Add these files
-3. Add the `README.md` above
-4. (Optional) Add screenshots of dashboards or redacted examples later
-
-Everything is sanitized, consistently formatted, and ready to showcase your work.  
-
-Let me know if you want any final tweaks, a PDF version note, or help writing a LinkedIn post about the repo! Great job putting all this together. 🚀
